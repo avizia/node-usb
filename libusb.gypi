@@ -29,6 +29,8 @@
       'direct_dependent_settings': {
         'include_dirs': [
           'libusb/libusb',
+          'HAVE_STRUCT_TIMESPEC=1',
+          '_TIMESPEC_DEFINED=1'
         ],
       },
       'defines': [
